@@ -1,0 +1,12 @@
+adlarge_fixtures_documentation:
+  title: Documentation auto
+  configEntities:
+    Product:
+      - id
+      - name
+      - owner
+    Customer:
+      - firstname
+      - lastname
+      - email
+      - products
