@@ -35,8 +35,6 @@ class AppFixtures extends Fixture
             ->setEmail('john.doe@test.fr');
 
         $manager->persist($customer);
-        $manager->flush();
-        $doc->addFixtureEntity($customer);
 
         $product = (new Product())
             ->setName("Product 1")
@@ -44,8 +42,6 @@ class AppFixtures extends Fixture
             ->setOwner($customer);
 
         $manager->persist($product);
-        $manager->flush();
-        $doc->addFixtureEntity($product);
 
         $product = (new Product())
             ->setName("Product 2")
@@ -53,9 +49,7 @@ class AppFixtures extends Fixture
             ->setOwner($customer);
 
         $manager->persist($product);
-        $manager->flush();
-        $doc->addFixtureEntity($product);
-
         
+        $manager->flush();        
     }
 }

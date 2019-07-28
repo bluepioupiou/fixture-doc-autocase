@@ -1,5 +1,6 @@
 adlarge_fixtures_documentation:
   title: Documentation auto
+  enableAutoDocumentation: true
   configEntities:
     Product:
       - id
@@ -9,4 +10,3 @@ adlarge_fixtures_documentation:
       - firstname
       - lastname
       - email
-      - products
