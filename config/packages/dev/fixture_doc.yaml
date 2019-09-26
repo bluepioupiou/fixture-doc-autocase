@@ -6,6 +6,7 @@ adlarge_fixtures_documentation:
       - id
       - name
       - owner
+      - tags
     Customer:
       - firstname
       - lastname

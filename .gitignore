@@ -13,3 +13,5 @@
 ###< symfony/web-server-bundle ###
 
 somedb\.sqlite
+
+.idea/

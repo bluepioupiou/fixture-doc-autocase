@@ -20,7 +20,7 @@
     "repositories": [
         {
           "type": "path",
-          "url": "../fixtures-doc"
+          "url": "../fixtures-documentation-bundle"
         }
     ],
     "config": {
